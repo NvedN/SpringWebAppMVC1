@@ -1,0 +1,7 @@
+ru\nvn\spring\files\MainWebAppInitializer.class
+ru\nvn\spring\config\MySpringMvcDispatcherSerlvetIntitializer.class
+ru\nvn\spring\controllers\PeopleController.class
+ru\nvn\spring\models\Person.class
+ru\nvn\spring\dao\PersonDAO.class
+ru\nvn\spring\config\SpringConfig.class
+ru\nvn\spring\models\FormDataWithFile.class
