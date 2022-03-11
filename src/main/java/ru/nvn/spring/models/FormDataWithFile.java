@@ -4,6 +4,10 @@ import org.springframework.web.multipart.MultipartFile;
 
 public class FormDataWithFile {
 
+
+		public static final String TXT_TYPE = "text/plain";
+		public static final String EXCEL_TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+
 		private String name;
 		private String email;
 		private MultipartFile file;
