@@ -33,6 +33,7 @@ public class FileParseUtil
 								int age = (int) ageCell.getNumericCellValue();
 								String email = df.formatCellValue(emailCell);
 								Person person = new Person(id,name,age,email);
+								person.setId(id);
 								personDAO.save(person);
 								System.out.println("------------id = " + id);
 								System.out.println("------------name = " + name);
